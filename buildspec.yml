@@ -21,7 +21,7 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - aws s3 sync build/ s3://atifacts-db 
+      - aws s3 sync build/ s3://destination-db 
 artifacts:
   files:
     - 'build/*'
