@@ -7,7 +7,7 @@ class App extends Component {
   render() {
 
     const myAddress = {
-      message: 'Try It Yourself'
+      message: 'Welcome to CloudWorld'
     };
 
     return (
